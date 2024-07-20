@@ -1,0 +1,77 @@
+body {
+    font-family: "Helvetica Neue", "Helvetica", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif;
+    background-color: #222;
+    color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.input {
+    background-color: #444;
+    color: #eee;
+    box-sizing: border-box;
+    border: 1px solid #555;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px 0;
+    width: 100%;
+}
+
+.login-container {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 5px;
+    width: 300px;
+}
+.login-headline {
+    margin-bottom: 20px;
+}
+
+.form-login-button {
+    margin-top: 10px;
+    text-align: center;
+}
+.login-button {
+    background-color: #005FFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+.login-button:hover {
+    background-color: #3399FF;
+}
+
+.form-signup-link {
+    margin-top: 15px;
+    font-size: 15px;
+}
+.form-signup-link > a {
+    color: #1e90ff;
+    text-decoration: none;
+}
+.form-signup-link > a:hover {
+    text-decoration: underline;
+}
+
+.login-form-table {
+    margin: 0 auto;
+}
+.login-form-table th {
+    padding-top: 10px;
+    text-align: left;
+}
+.login-form-table,
+.login-form-table tbody,
+.login-form-table tr,
+.login-form-table th,
+.login-form-table td {
+    display: block;
+}
