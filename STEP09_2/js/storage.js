@@ -9,8 +9,8 @@ loginForm.addEventListener('submit', (e) => {
     localStorage.setItem('savePassword', passwordInput.value);
 }, {passive: false});
 
-signupLink.addEventListener('click', (e) => {
+addEventListener('load', (e) => {
     e.preventDefault();
     emailInput.value = localStorage.getItem('saveEmail');
     passwordInput.value = localStorage.getItem('savePassword');
-}, {passive: false});
+});
