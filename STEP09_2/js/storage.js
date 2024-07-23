@@ -6,10 +6,9 @@ loginForm.addEventListener('submit', (e) => {
     e.preventDefault();
     localStorage.setItem('saveEmail', emailInput.value);
     localStorage.setItem('savePassword', passwordInput.value);
-}, {passive: false});
+});
 
 addEventListener('load', (e) => {
-    e.preventDefault();
     emailInput.value = localStorage.getItem('saveEmail');
     passwordInput.value = localStorage.getItem('savePassword');
 });
