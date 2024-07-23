@@ -1,7 +1,6 @@
 const loginForm = document.getElementById('js-login-form');
 const emailInput = document.getElementById('js-login-email');
 const passwordInput = document.getElementById('js-login-password');
-const signupLink = document.getElementById('js-signup-link');
 
 loginForm.addEventListener('submit', (e) => {
     e.preventDefault();
